@@ -1,6 +1,6 @@
-# Awesome Claude Skills
+# Awesome Claude Consulting Skills
 
-A curated collection of professional AI agent skills designed to enhance Claude Code's capabilities in specialized domains. Transform your AI coding assistant into a strategic partner for complex business and technical challenges.
+A curated collection of professional consulting skills designed to transform Claude Code into an enterprise-grade business consultant. Leverage proven methodologies from top-tier consulting firms to deliver strategic analysis, business proposals, and professional deliverables.
 
 **🌟 Star this repo** if you find these skills useful! **Contributions welcome** — [see how to contribute](#contributing).
 
@@ -27,7 +27,7 @@ Think of skills as expert consultants embedded directly into your AI assistant.
 
 | Skill | Version | Language | Description |
 |-------|---------|----------|-------------|
-| **[jp-consulting-output](.github/skills/jp-consulting/)** | v0.1.0 | 🇯🇵 Japanese | Enterprise-grade consulting deliverable generator. Produces strategic analysis reports and business proposals using methodologies from top-tier consulting firms (McKinsey, BCG, Bain, Big 4, and Japanese majors). Covers 23+ scenario types across business strategy and technology domains. Features incremental build approach, web search integration, hypothesis-driven analysis, and multi-firm formatting. |
+| **[jp-consulting](consulting-skills/jp-consulting/)** | v0.1.0 | 🇯🇵 Japanese | Enterprise-grade consulting deliverable generator. Produces strategic analysis reports and business proposals using methodologies from top-tier consulting firms (McKinsey, BCG, Bain, Big 4, and Japanese majors). Covers 23+ scenario types across business strategy and technology domains. Features incremental build approach, web search integration, hypothesis-driven analysis, and multi-firm formatting. |
 
 <!-- SKILLS:END -->
 
@@ -76,9 +76,8 @@ npx skills add <your-github-username>/awesome-claude-skills
 ```
 
 **Step 2: Open Claude Code (10 seconds)**
-- Open your project in VS Code
-- Launch Claude Code interface (Ctrl+Shift+I / Cmd+Shift+I)
-- Or use GitHub Copilot with Claude model enabled
+- Open your project in Claude Code
+- Or reference this skill in your Claude conversation
 
 **Step 3: Start Using (Just ask!)**
 ```
@@ -119,11 +118,8 @@ Claude: ⚫ Starting market entry strategy development...
 <summary><strong>🔧 What You Need</strong></summary>
 
 **Required:**
-- [VS Code](https://code.visualstudio.com/) (v1.90+)
-- One of the following:
-  - [GitHub Copilot](https://github.com/features/copilot) with Claude model enabled
-  - [Claude Code](https://claude.ai/code) (official extension coming soon)
-  - Any AI assistant supporting Claude skills format
+- [Claude Code](https://claude.ai/code) or Claude with access to your codebase
+- Access to add custom skills/instructions to Claude
 
 **Optional but Recommended:**
 - Node.js (for npx commands)
@@ -132,19 +128,17 @@ Claude: ⚫ Starting market entry strategy development...
 </details>
 
 <details>
-<summary><strong>🎯 Enable Claude in VS Code</strong></summary>
+<summary><strong>🎯 Enable Claude Skills</strong></summary>
 
-**Method A: GitHub Copilot (Available Now)**
-1. Install [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-2. Open Settings: `Ctrl+,` / `Cmd+,`
-3. Search: "Copilot Chat Model"
-4. Select: `claude-3.5-sonnet` or `claude-sonnet-4.5`
-5. Restart VS Code
+**Using Claude Code:**
+1. Add the skill files to your project workspace
+2. Claude Code automatically detects and uses skills in your workspace
+3. Simply start asking Claude to perform the tasks
 
-**Method B: Claude Code Extension (Coming Soon)**
-1. Wait for official release
-2. Install from VS Code marketplace
-3. Follow setup wizard
+**Using Claude.ai:**
+1. Upload the skill markdown files to your conversation
+2. Reference the skills in your prompts
+3. Claude will apply the frameworks automatically
 
 </details>
 
@@ -156,7 +150,7 @@ After installation, your project should have:
 your-project/
 ├── .claude/
 │   └── skills/
-│       └── jp-consulting-output/
+│       └── jp-consulting/
 │           ├── SKILL.md         # Main skill definition
 │           ├── README.md        # Documentation
 │           └── references/      # Frameworks & templates
@@ -170,13 +164,13 @@ your-project/
 
 **Check 1: Files exist**
 ```bash
-ls .claude/skills/jp-consulting-output/
+ls .claude/skills/jp-consulting/
 # Should show: SKILL.md, README.md, references/
 ```
 
 **Check 2: Test in Claude**
 ```
-You: /jp-consulting-output
+You: /jp-consulting
 Claude: [Should show skill activation message]
 ```
 
@@ -194,7 +188,7 @@ Claude: [Should recognize and activate skill]
 **Skills not recognized?**
 - ✅ Check `.claude/skills/` directory exists
 - ✅ Restart VS Code
-- ✅ Try direct invocation: `/jp-consulting-output`
+- ✅ Try direct invocation: `/jp-consulting`
 - ✅ Verify SKILL.md has correct frontmatter
 
 **Claude not available?**
@@ -218,7 +212,7 @@ Claude: [Should recognize and activate skill]
 
 #### 1️⃣ Install VS Code Extension
 
-**GitHub Copilot (Recommended)**
+**GitHub Copilot**
 ```bash
 # Install via VS Code marketplace
 code --install-extension GitHub.copilot
@@ -315,89 +309,6 @@ ls -la .claude/skills
 
 ---
 
-## 📦 Installation Methods
-
-<details open>
-<summary><strong>📦 Method 1: NPX Skills CLI (Recommended)</strong></summary>
-
-Using [npx skills](https://github.com/vercel-labs/skills):
-
-```bash
-# Install all skills
-npx skills add <your-github-username>/awesome-claude-skills
-
-# Install specific skill
-npx skills add <your-github-username>/awesome-claude-skills --skill jp-consulting-output
-
-# List available skills
-npx skills add <your-github-username>/awesome-claude-skills --list
-```
-
-Skills are automatically installed to `.claude/skills/`.
-
-</details>
-
-<details>
-<summary><strong>🔌 Method 2: Claude Code Plugin</strong></summary>
-
-Via Claude Code's plugin system:
-
-```bash
-/plugin marketplace add <your-github-username>/awesome-claude-skills
-/plugin install jp-consulting-output
-```
-
-</details>
-
-<details>
-<summary><strong>📋 Method 3: Manual Clone</strong></summary>
-
-Clone and copy skills:
-
-```bash
-git clone https://github.com/<your-github-username>/awesome-claude-skills.git
-cp -r awesome-claude-skills/.github/skills/* .claude/skills/
-```
-
-</details>
-
-<details>
-<summary><strong>🔗 Method 4: Git Submodule</strong></summary>
-
-For automatic updates:
-
-```bash
-git submodule add https://github.com/<your-github-username>/awesome-claude-skills.git .claude/awesome-claude-skills
-```
-
-Reference skills from `.claude/awesome-claude-skills/.github/skills/`.
-
-</details>
-
-<details>
-<summary><strong>🍴 Method 5: Fork & Customize</strong></summary>
-
-1. Fork this repository
-2. Customize skills for your needs
-3. Clone your fork into projects
-4. Keep private or public as needed
-
-</details>
-
-<details>
-<summary><strong>🌐 Method 6: SkillKit (Multi-Agent Support)</strong></summary>
-
-Using [SkillKit](https://github.com/rohitg00/skillkit) for multiple AI agents:
-
-```bash
-# Works with Claude Code, Cursor, Copilot, etc.
-npx skillkit install <your-github-username>/awesome-claude-skills --skill jp-consulting-output
-```
-
-</details>
-
----
-
 
 ## ✨ Key Features
 
@@ -489,10 +400,10 @@ Real-time tracking of deliverable creation:
 
 | Skill | Language | Notes |
 |-------|----------|-------|
-| jp-consulting-output | 🇯🇵 Japanese | Designed for Japanese business contexts and communication conventions |
+| jp-consulting | 🇯🇵 Japanese | Designed for Japanese business contexts and communication conventions |
 
 **Future roadmap includes:**
-- 🇺🇸 English version
+- 🌏 English version
 
 ---
 
@@ -568,7 +479,7 @@ We welcome contributions! Whether you want to:
 [MIT License](LICENSE) - Use freely in personal and commercial projects.
 
 ```
-MIT License - Copyright (c) 2026 Awesome Claude Skills Contributors
+MIT License - Copyright (c) 2026 Awesome Claude Consulting Skills Contributors
 ```
 
 ---
@@ -592,7 +503,7 @@ MIT License - Copyright (c) 2026 Awesome Claude Skills Contributors
 
 <div align="center">
 
-**[⬆ Back to Top](#awesome-claude-skills)**
+**[⬆ Back to Top](#awesome-claude-consulting-skills)**
 
 **If this helped you, consider giving it a ⭐**
 

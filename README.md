@@ -27,7 +27,8 @@ Think of skills as expert consultants embedded directly into your AI assistant.
 
 | Skill | Version | Language | Description |
 |-------|---------|----------|-------------|
-| **[jp-consulting](consulting-skills/jp-consulting/)** | v0.1.0 | 🇯🇵 Japanese | Enterprise-grade consulting deliverable generator. Produces strategic analysis reports and business proposals using methodologies from top-tier consulting firms (McKinsey, BCG, Bain, Big 4, and Japanese majors). Covers 23+ scenario types across business strategy and technology domains. Features incremental build approach, web search integration, hypothesis-driven analysis, and multi-firm formatting. |
+| **[all-consulting](consulting-skills/all-consulting/)** | v1.0.0 | 🇬🇧 English | Enterprise-grade consulting deliverable generator. Produces strategic analysis reports and business proposals using methodologies from top-tier consulting firms (McKinsey, BCG, Bain, Big 4, and Japanese majors). Covers 23+ scenario types across business strategy and technology domains. Features incremental build approach, web search integration, hypothesis-driven analysis, and multi-firm formatting. |
+| **[jp-consulting](consulting-skills/jp-consulting/)** | v1.0.0 | 🇯🇵 Japanese | Enterprise-grade consulting deliverable generator. Produces strategic analysis reports and business proposals using methodologies from top-tier consulting firms (McKinsey, BCG, Bain, Big 4, and Japanese majors). Covers 23+ scenario types across business strategy and technology domains. Features incremental build approach, web search integration, hypothesis-driven analysis, and multi-firm formatting. |
 
 <!-- SKILLS:END -->
 
@@ -400,10 +401,12 @@ Real-time tracking of deliverable creation:
 
 | Skill | Language | Notes |
 |-------|----------|-------|
+| all-consulting | 🇬🇧 English | Designed for international business contexts and global consulting methodologies |
 | jp-consulting | 🇯🇵 Japanese | Designed for Japanese business contexts and communication conventions |
 
 **Future roadmap includes:**
-- 🌏 English version
+- 🌏 Additional language versions
+- 🌐 Regional adaptations
 
 ---
 

@@ -2,11 +2,68 @@
 name: all-consulting-skills
 description: Comprehensive consultant and consulting deliverable generation skill covering issue structuring, hypothesis testing, framework analysis, and final document creation. Professional consultant-grade outputs. Supports 23+ case types including new market entry, M&A, growth strategy, pricing, IT/AI implementation, cloud migration, DX, cybersecurity, ESG strategy, and sustainability. Generates research reports and proposals in Markdown format. Web search integration. Multiple firm format support. Progress visualization. English language only.
 license: MIT
+keywords:
+  - consulting
+  - business strategy
+  - management consulting
+  - strategy consulting
+  - McKinsey
+  - BCG
+  - Bain
+  - Deloitte
+  - EY
+  - PwC
+  - Accenture
+  - business analysis
+  - framework analysis
+  - hypothesis testing
+  - market entry
+  - M&A
+  - due diligence
+  - growth strategy
+  - competitive analysis
+  - business proposal
+  - strategic planning
+  - digital transformation
+  - DX
+  - cloud migration
+  - cybersecurity
+  - ESG
+  - sustainability
+categories:
+  - business
+  - consulting
+  - strategy
+  - analysis
+  - professional-services
+tags:
+  - professional
+  - enterprise
+  - business-strategy
+  - management
+  - analysis
+  - deliverables
+  - reports
+  - proposals
 metadata:
   author: Strategic Consulting Methodology
   version: "1.0.0"
   last_updated: "2026-02-02"
   design_philosophy: "Incremental Build × Slide-First Approach"
+  language: en
+  skill_type: consulting
+  target_audience:
+    - business-consultants
+    - strategy-consultants
+    - management-consultants
+    - business-analysts
+    - executives
+  use_cases:
+    - strategic-planning
+    - market-analysis
+    - business-proposals
+    - research-reports
+    - competitive-intelligence
 ---
 
 # Consulting Output Generation Skill (Goodbye Consulting!)

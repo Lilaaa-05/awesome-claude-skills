@@ -1,5 +1,7 @@
 # Awesome Claude Consulting Skills
 
+> 🔍 **Keywords**: consulting, コンサル, コンサルティング, business strategy, management consulting, McKinsey, BCG, Bain, strategic planning, business analysis
+
 A curated collection of professional consulting skills designed to transform Claude Code into an enterprise-grade business consultant. Leverage proven methodologies from top-tier consulting firms to deliver strategic analysis, business proposals, and professional deliverables.
 
 **🌟 Star this repo** if you find these skills useful! **Contributions welcome** — [see how to contribute](#contributing).

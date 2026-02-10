@@ -2,11 +2,88 @@
 name: jp-consulting-skills
 description: コンサルティング向け包括的アウトプット生成スキル。課題構造化から仮説検証、フレームワーク分析、最終資料作成まで対応。新規市場参入、M&A、成長戦略、価格戦略、ITシステム・AI導入、クラウド移行、DX、サイバーセキュリティ、ESG戦略、サステナビリティなど幅広い23ケースに対応し、調査報告書・提案資料をMarkdown形式で生成。Web検索機能統合。複数企業フォーマット対応。進捗可視化対応。言語は日本語のみ。
 license: MIT
+keywords:
+  - コンサル
+  - コンサルティング
+  - 経営コンサルティング
+  - 戦略コンサルティング
+  - ビジネスコンサルティング
+  - consulting
+  - business strategy
+  - マッキンゼー
+  - McKinsey
+  - BCG
+  - ボストンコンサルティング
+  - ベイン
+  - Bain
+  - デロイト
+  - Deloitte
+  - EY
+  - PwC
+  - アクセンチュア
+  - Accenture
+  - 経営戦略
+  - ビジネス分析
+  - フレームワーク分析
+  - 仮説検証
+  - 市場参入
+  - 新規事業
+  - M&A
+  - デューデリジェンス
+  - 成長戦略
+  - 競合分析
+  - 事業計画
+  - 戦略立案
+  - デジタルトランスフォーメーション
+  - DX
+  - クラウド移行
+  - サイバーセキュリティ
+  - ESG
+  - サステナビリティ
+  - 提案資料
+  - 調査報告書
+categories:
+  - business
+  - consulting
+  - strategy
+  - analysis
+  - professional-services
+  - japanese
+tags:
+  - professional
+  - enterprise
+  - business-strategy
+  - management
+  - analysis
+  - deliverables
+  - reports
+  - proposals
+  - japanese
+  - 日本語
 metadata:
   author: Strategic Consulting Methodology
   version: "1.0.0"
   last_updated: "2026-01-31"
   design_philosophy: "段階的構築・スライド指向型"
+  language: ja
+  skill_type: consulting
+  target_audience:
+    - business-consultants
+    - strategy-consultants
+    - management-consultants
+    - business-analysts
+    - executives
+    - コンサルタント
+    - 経営企画
+  use_cases:
+    - strategic-planning
+    - market-analysis
+    - business-proposals
+    - research-reports
+    - competitive-intelligence
+    - 戦略立案
+    - 市場分析
+    - 提案資料作成
 ---
 
 # コンサルティングアウトプット生成スキル(さよならコンサル！)
